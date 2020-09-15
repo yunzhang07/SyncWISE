@@ -85,9 +85,9 @@ We compare our method to baseline <a href="#Baseline">[2]</a> on two datasets: o
 <div class="desc"> Result on S2S-Sync Dataset for baseline-xx, baseline-PCA, SyncWISE-xx and SyncWISE (𝑇𝑤=10s, 𝑇𝑚𝑎𝑥 =5s, 𝑁𝑠=20) with random shift. The SyncWISE results are averaged over 30 runs. In each run, we generate a random number from [-3 sec, 3 sec] as the ground truth shift between videos and accelerometer data. Baseline results are based on a single run because it is not affected by different input shift and no randomization is involved in this algorithm.</div>
 <center><img src="img/s2s_sync.png" ></center>
 
-<ul><li>*-xx – select the 𝑥 component of both the accelerometry and camera acceleration features<li>
-<li>*-PCA – use the PCA-based approach to determine the 1D signals used for cross-correlation<li>
-<li>PV-n – Percentage of video clips which are synchronized to an offset error of less than 𝑛 ms<li></ul>
+<ul><li>*-xx – select the 𝑥 component of both the accelerometry and camera acceleration features</li>
+<li>*-PCA – use the PCA-based approach to determine the 1D signals used for cross-correlation</li>
+<li>PV-n – Percentage of video clips which are synchronized to an offset error of less than 𝑛 ms</li></ul>
 
 <div class="desc"> Final result on the CMU-MMAC Dataset for synchronization between wearable camera and right arm accelerometor using SyncWISE, Baseline-PCA and Baseline-xx (with 𝑇𝑤=60s, 𝑇𝑚𝑎𝑥 =60s, 𝑁𝑠=10).</div>
 <center><img src="img/cmu_mmac.png" ></center>
