@@ -73,14 +73,10 @@ The development and validation of computational models to detect daily human beh
 <div class="content">
 
 
-<h1> Viewer Centered Training Affects Generalization</h1>
-<p>
-  When evaluated on 3 Degree-of-Freedom Viewer Centered (3 DOF VC)&mdash;object pose varies along azimuth, elevation and tilt,
-  our empirical findings show marginal decrease in performance between seen and unseen classes for the 3 DOF VC model. 
-  This is new evidence that it is possible to learn a general shape representation with correct depth estimation and 3 DOF VC training.
-  </p>
-<center><img src="img/representation_img.png" ></center>
-<div class="desc"> Quantitative evaluation of 3 DOF VC shows high performance on both seen and unseen categories. Model is trained on ground truth depth and normal images.</div>
+<h1> Method Overview</h1>
+<p>Our approach to matching noisy video and accelerometry signals captured from mobile devices has three steps, window pair sampling, window pair matching and offset estimation. It selects high-quality windows of accelerometry data for matching, as a way to overcome the noise and missingness in this signal. Weighted kernel density estimation (wKDE) is used to combine noisy estimates of the shift produced from multiple accelerometry-video window pairs to obtain an accurate estimate.</p>
+<center><img src="img/overview.png" ></center>
+<div class="desc"> SyncWISE Algorithm overview.</div>
 
 <h1> Generalization Across Different Datasets </h1>
 <center><img src="img/abc_shapenet_img.png" ></center>
