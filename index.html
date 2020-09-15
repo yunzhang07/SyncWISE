@@ -82,7 +82,7 @@ The development and validation of computational models to detect daily human beh
 <p>
 We compare our method to baseline <a href="#Baseline">[2]</a> on two datasets: our novel S2S-Sync dataset and the CMU-MMAC kitchen activities dataset <a href="#CMU_MMAC">[1]</a>.
 </p>
-<center><img src="img/s2s.png" ></center>
+<center><img src="img/s2s_sync.png" ></center>
 <div class="desc"> Result on S2S-Sync Dataset for baseline-xx, baseline-PCA, SyncWISE-xx and SyncWISE (𝑇𝑤=10s, 𝑇𝑚𝑎𝑥 =5s, 𝑁𝑠=20) with random shift. The SyncWISE results are averaged over 30 runs. In each run, we generate a random number from [-3 sec, 3 sec] as the ground truth shift between videos and accelerometer data. Baseline results are based on a single run because it is not affected by different input shift and no randomization is involved in this algorithm.</div>
 
 <p>
@@ -91,7 +91,7 @@ We compare our method to baseline <a href="#Baseline">[2]</a> on two datasets: o
 PV-n – Percentage of video clips which are synchronized to an offset error of less than 𝑛 ms
 </p>
 
-<center><img src="img/cmu.png" ></center>
+<center><img src="img/cmu_mmac.png" ></center>
 <div class="desc"> Final result on the CMU-MMAC Dataset for synchronization between wearable camera and right arm accelerometor using SyncWISE, Baseline-PCA and Baseline-xx (with 𝑇𝑤=60s, 𝑇𝑚𝑎𝑥 =60s, 𝑁𝑠=10).</div>
 
 <h1> Citation  </h1>
